@@ -1,0 +1,143 @@
+{
+  "intercept": 0.0151167311,
+  "terms": [
+    {
+      "feature": "birthweight_g",
+      "original_feature": "birthweight_g",
+      "type": "Clinical value",
+      "median": 1260.0,
+      "mean": 1299.2528089888,
+      "scale": 441.4659127548,
+      "coefficient": -0.8019387627,
+      "unscaled_coefficient": -0.0018165361
+    },
+    {
+      "feature": "ga_category",
+      "original_feature": "ga_category",
+      "type": "Clinical value",
+      "median": 2.0,
+      "mean": 2.0617977528,
+      "scale": 0.7520902,
+      "coefficient": -0.9713555848,
+      "unscaled_coefficient": -1.29154134
+    },
+    {
+      "feature": "maternal_age",
+      "original_feature": "maternal_age",
+      "type": "Clinical value",
+      "median": 27.0,
+      "mean": 27.468845761,
+      "scale": 5.2699157535,
+      "coefficient": -0.0379224317,
+      "unscaled_coefficient": -0.0071960224
+    },
+    {
+      "feature": "hdp",
+      "original_feature": "hdp",
+      "type": "Clinical value",
+      "median": 0.0,
+      "mean": 0.2630234934,
+      "scale": 0.4402750678,
+      "coefficient": -0.117134768,
+      "unscaled_coefficient": -0.2660490602
+    },
+    {
+      "feature": "prom",
+      "original_feature": "prom",
+      "type": "Clinical value",
+      "median": 0.0,
+      "mean": 0.1414708887,
+      "scale": 0.3485066374,
+      "coefficient": -0.1288959595,
+      "unscaled_coefficient": -0.3698522372
+    },
+    {
+      "feature": "gdm",
+      "original_feature": "gdm",
+      "type": "Clinical value",
+      "median": 0.0,
+      "mean": 0.0607763023,
+      "scale": 0.2389195334,
+      "coefficient": 0.0242909233,
+      "unscaled_coefficient": 0.1016698925
+    },
+    {
+      "feature": "apgar5",
+      "original_feature": "apgar5",
+      "type": "Clinical value",
+      "median": 8.0,
+      "mean": 8.0434116445,
+      "scale": 0.6716611556,
+      "coefficient": 0.042676721,
+      "unscaled_coefficient": 0.0635390638
+    },
+    {
+      "feature": "missingindicator_ga_category",
+      "original_feature": "ga_category",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.0005107252,
+      "scale": 0.022593459,
+      "coefficient": 0.1852881462,
+      "unscaled_coefficient": 8.2009641022
+    },
+    {
+      "feature": "missingindicator_maternal_age",
+      "original_feature": "maternal_age",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.3580183861,
+      "scale": 0.4794175855,
+      "coefficient": 0.2854136324,
+      "unscaled_coefficient": 0.5953340909
+    },
+    {
+      "feature": "missingindicator_hdp",
+      "original_feature": "hdp",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.0020429009,
+      "scale": 0.0451522699,
+      "coefficient": 0.025737348,
+      "unscaled_coefficient": 0.5700122735
+    },
+    {
+      "feature": "missingindicator_prom",
+      "original_feature": "prom",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.6169560776,
+      "scale": 0.4861288676,
+      "coefficient": 1.3256269827,
+      "unscaled_coefficient": 2.7269044714
+    },
+    {
+      "feature": "missingindicator_gdm",
+      "original_feature": "gdm",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.3575076609,
+      "scale": 0.479266036,
+      "coefficient": 1.3557518287,
+      "unscaled_coefficient": 2.8288084837
+    },
+    {
+      "feature": "missingindicator_apgar5",
+      "original_feature": "apgar5",
+      "type": "Missing indicator",
+      "median": null,
+      "mean": 0.8028600613,
+      "scale": 0.3978388911,
+      "coefficient": -1.6559542684,
+      "unscaled_coefficient": -4.1623740298
+    }
+  ],
+  "score_tertiles": [
+    0.3268687942618028,
+    0.7029728615626049
+  ],
+  "source_document": "05_WORKING_REVISION\\Additional_File_1_GA_Updated_20260928.docx",
+  "source_sha256": "1709ccbbf274871b2d9e6fb8272580d3735437f5c3e13cd2bfbb2cc280edaebc",
+  "parameter_precision": "Reported rounded Table S5 specification; original full-precision export unavailable",
+  "reconstructed_on": "2026-09-28"
+}
